@@ -1,8 +1,45 @@
+
+function trocar(elemento){
+    //document.getElementById("mousemove") .innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //alert("trocar texto");
+}
+function voltar(elemento){
+    //document.getElementById("mousemove") .innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert ("Pagina carregada");
+}
+
+function funcaochange(elemento){
+    console.log(elemento.value)
+}
+
+/*
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigador por clicar</b>";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por Cliclar");
+}
+
+function redirecionar(){
+    //window.open("https://web.dio.me/home")
+    window.location.href ="https://web.dio.me/home"
+}
+*/
+/*
+function clicou(){
+    alert("Obrigado por clicar");
+}
+*/
 /*
 function soma(n1, n2){
     return n1 + n2;
 }
 */
+/*
 function validaIdade(idade){
     var validar;
     if(idade >=18){
@@ -14,7 +51,7 @@ function validaIdade(idade){
 }
 var idade= prompt("Qual sua idade?");
 console.log(validaIdade(idade));
-
+*/
 /*
 function setReplace(frase, nome, novo_nome){
     return frase.replace (nome, novo_nome)
